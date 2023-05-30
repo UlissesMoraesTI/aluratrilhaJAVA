@@ -6,7 +6,8 @@ public class Main {
 
         int anoDeLancamento = 2022;
         System.out.println("Ano de Lançamento: " + anoDeLancamento);
-        boolean incluidoNoPlano = true;
+        boolean incluidoNoPlano = false;
+        String tipoPlano = "plus ";
         double notaDoFilme = 8.1;
 
         if (anoDeLancamento >= 2022){
@@ -23,5 +24,10 @@ public class Main {
 
         System.out.println(sinopse);
 
+        if (incluidoNoPlano == true || tipoPlano.trim().equals("plus")) {
+            System.out.println("Filme Liberado!");
+        }  else {
+            System.out.println("Deve pagar a Locação");
+        }
     }
 }

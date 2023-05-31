@@ -24,5 +24,11 @@ public class AluraLoopWhile {
                 }
 
                 System.out.println("Média = " + mediaAvaliacao/totalDeNotas);
+
+                int contador = 1;
+
+                while (contador <= 10) {
+                    System.out.println(contador);
+                }
     }
 }

@@ -15,6 +15,9 @@ public class AluraSwitch {
                 System.out.println("Valor igual 3");
                 break;
 
+            default:
+                System.out.println("Valor Inválido");
+                break;
         }
 
         int dia = 3;
